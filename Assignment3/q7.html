@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Timetable for the Annual Tech Conference</strong></caption>
+        <thead>
+            <tr>
+                <th>Time Slot</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td colspan="3" title="Keynote by Dr. Smith: Innovations in AI" style="background-color: red;">Keynote Session</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td title="Workshop by Jane Doe: Introduction to Python" style="background-color: yellow;">Python Workshop</td>
+                <td rowspan="2" title="Panel Discussion with Industry Leaders" style="background-color:aquamarine;">Panel Discussion</td>
+                <td title="Talk by John Lee: Cybersecurity Best Practices" style="background-color: green;">Cybersecurity Talk</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td title="Workshop by Sarah Kim: Machine Learning Basics" style="background-color: yellow;">ML Workshop</td>
+                <td title="Talk by Emma Clark: Cloud Computing Advances" style="background-color: green;">Cloud Computing Talk</td>
+            </tr>
+            <tr>
+                <td>1:30 PM - 2:30 PM</td>
+                <td title="Interactive Session with Prof. Brown" style="background-color: green;">Ted Talk</td>
+                <td colspan="2" title="Collaborative Session: Emerging Tech Trends" style="background-color: yellow;">Web3 Workshop</td>
+            </tr>
+            <tr>
+                <td>2:45 PM - 3:45 PM</td>
+                <td title="Workshop by Alan Turing: Cryptography" style="background-color: yellow;">Cryptography Workshop</td>
+                <td title="Talk by Clara Green: Future of Quantum Computing" style="background-color: green;">Quantum Computing Talk</td>
+                <td title="Discussion by Mike Hart: Ethical AI" style="background-color: aquamarine;">Ethical AI Discussion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Legend</h3>
+    <ul>
+        <li style="background-color: red;"><strong>Keynote</strong>: Highlighted in combined cells for all attendees.</li>
+        <li style="background-color: yellow;"><strong>Workshop</strong>: Hands-on sessions led by experts.</li>
+        <li style="background-color: green;"><strong>Talk</strong>: Informative presentations by speakers.</li>
+        <li style="background-color: aquamarine;"><strong>Panel Discussion</strong>: Collaborative discussions with leaders.</li>
+    </ul>
+</body>
+</html>
